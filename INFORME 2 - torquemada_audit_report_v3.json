@@ -1,0 +1,196 @@
+{
+  "processes": {
+    "total": 236,
+    "top_cpu": [
+      {
+        "cpu_percent": 0.0,
+        "name": "systemd",
+        "memory_percent": 0.059180505429278614,
+        "pid": 1
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kthreadd",
+        "memory_percent": 0.0,
+        "pid": 2
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "pool_workqueue_release",
+        "memory_percent": 0.0,
+        "pid": 3
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kworker/R-rcu_g",
+        "memory_percent": 0.0,
+        "pid": 4
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kworker/R-rcu_p",
+        "memory_percent": 0.0,
+        "pid": 5
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kworker/R-slub_",
+        "memory_percent": 0.0,
+        "pid": 6
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kworker/R-netns",
+        "memory_percent": 0.0,
+        "pid": 7
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kworker/0:0H-events_highpri",
+        "memory_percent": 0.0,
+        "pid": 9
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "kworker/R-mm_pe",
+        "memory_percent": 0.0,
+        "pid": 12
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "rcu_tasks_kthread",
+        "memory_percent": 0.0,
+        "pid": 13
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "rcu_tasks_rude_kthread",
+        "memory_percent": 0.0,
+        "pid": 14
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "rcu_tasks_trace_kthread",
+        "memory_percent": 0.0,
+        "pid": 15
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "ksoftirqd/0",
+        "memory_percent": 0.0,
+        "pid": 16
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "rcu_preempt",
+        "memory_percent": 0.0,
+        "pid": 17
+      },
+      {
+        "cpu_percent": 0.0,
+        "name": "migration/0",
+        "memory_percent": 0.0,
+        "pid": 18
+      }
+    ]
+  },
+  "containers": {
+    "total": 1,
+    "containers": [
+      {
+        "id": "e7965bd59597",
+        "name": "olmo31-thinking-fp8-vllm",
+        "status": "running",
+        "image": "vllm/vllm-openai:latest"
+      }
+    ]
+  },
+  "connections": {
+    "total": 13,
+    "by_status": {
+      "LISTEN": 6,
+      "ESTABLISHED": 4,
+      "NONE": 3
+    }
+  },
+  "updates_libs": {
+    "apt": {
+      "upgradable_packages": 80,
+      "sample": [
+        "apparmor/noble-updates 4.0.1really4.0.1-0ubuntu0.24.04.9 amd64 [actualizable desde: 4.0.1really4.0.1-0ubuntu0.24.04.5]",
+        "apport-core-dump-handler/noble-updates 2.28.3-0ubuntu0.1 all [actualizable desde: 2.28.1-0ubuntu3.8]",
+        "apport/noble-updates 2.28.3-0ubuntu0.1 all [actualizable desde: 2.28.1-0ubuntu3.8]",
+        "base-files/noble-updates 13ubuntu10.5 amd64 [actualizable desde: 13ubuntu10.4]",
+        "byobu/noble-updates 6.11-0ubuntu1.1 all [actualizable desde: 6.11-0ubuntu1]",
+        "cloud-init/noble-updates 26.2-0ubuntu1~24.04.2 all [actualizable desde: 25.2-0ubuntu1~24.04.1]",
+        "console-setup-linux/noble-updates 1.226ubuntu1.1 all [actualizable desde: 1.226ubuntu1]",
+        "console-setup/noble-updates 1.226ubuntu1.1 all [actualizable desde: 1.226ubuntu1]",
+        "containerd.io/noble 2.4.2-4~ubuntu.24.04~noble amd64 [actualizable desde: 2.4.2-2~ubuntu.24.04~noble]",
+        "distro-info/noble-updates 1.7ubuntu0.1 amd64 [actualizable desde: 1.7build1]"
+      ]
+    },
+    "pip": {
+      "outdated": [
+        {
+          "name": "filelock",
+          "version": "4.2.10",
+          "latest_version": "4.2.11",
+          "latest_filetype": "wheel"
+        },
+        {
+          "name": "httpcore2",
+          "version": "2.16.0",
+          "latest_version": "2.16.2",
+          "latest_filetype": "wheel"
+        },
+        {
+          "name": "httpx2",
+          "version": "2.16.0",
+          "latest_version": "2.16.2",
+          "latest_filetype": "wheel"
+        },
+        {
+          "name": "SQLAlchemy",
+          "version": "2.1.8",
+          "latest_version": "2.1.9",
+          "latest_filetype": "wheel"
+        }
+      ]
+    }
+  },
+  "backups": {
+    "backups": []
+  },
+  "databases": {
+    "databases": [],
+    "note": "No DATABASE_URLS configuradas"
+  },
+  "nas_files": {
+    "nas_accessibility": [],
+    "python_files_count": 0,
+    "long_paths_count": 0,
+    "long_paths_sample": []
+  },
+  "pipelines": {
+    "pipeline_files": [],
+    "total": 0
+  },
+  "llm_bench": {
+    "error": "No se pudo conectar al endpoint LLM: Client error '401 Unauthorized' for url 'http://localhost:8000/v1/models'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+  },
+  "bench_summary": {
+    "note": "sin casos válidos",
+    "error_llm_bench": "No se pudo conectar al endpoint LLM: Client error '401 Unauthorized' for url 'http://localhost:8000/v1/models'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+  },
+  "meta": {
+    "timestamp": "2026-11-17T15:37:00.996483+00:00",
+    "total_duration_s": 2.2,
+    "gpu_target": "4x NVIDIA RTX 2000 Ada Generation (64 GB VRAM total)",
+    "client_version": "3.1",
+    "model_id": "TORQUEMADA-OLMo-3.1-32B-Think",
+    "variant": "UNKNOWN",
+    "max_model_len": null,
+    "answer_marker": "---RESPUESTA---",
+    "think_close_marker": "</think>"
+  }
+}

@@ -1,0 +1,68 @@
+(venv) <usuario>@<servidor>:<ruta>$
+python3 <script_benchmark>.py
+2026-11-17 16:01:29 | INFO     | torquemada | === Torquemada Audit & Benchmark v3.1 ===
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: GET http://<endpoint>:8000/v1/models "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | WARNING  | torquemada | Modelo 'TORQUEMADA-OLMo-3.1-32B-Think' no encontrado en el endpoint. Disponibles: ['TORQUEMADA-OLMo-3.1-32B-THINKING-FP8-W8A8-DYNAMIC']
+2026-11-17 16:01:30 | WARNING  | torquemada | Auto-detectando: usando 'TORQUEMADA-OLMo-3.1-32B-THINKING-FP8-W8A8-DYNAMIC'
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:01:30 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:03:16 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:03:55 | INFO     | torquemada | Truncado a 2560 → reintento con 5120
+2026-11-17 16:03:55 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:04:48 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:05:36 | INFO     | torquemada | Truncado a 1024 → reintento con 2048
+2026-11-17 16:05:36 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:06:20 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:06:35 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:06:57 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:06:57 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:07:21 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:07:21 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:07:21 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:07:21 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:08:10 | INFO     | httpx | HTTP Request: POST http://<endpoint>:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 16:09:22 | INFO     | torquemada | OK: processes
+2026-11-17 16:09:22 | INFO     | torquemada | OK: containers
+2026-11-17 16:09:22 | INFO     | torquemada | OK: connections
+2026-11-17 16:09:22 | INFO     | torquemada | OK: updates_libs
+2026-11-17 16:09:22 | INFO     | torquemada | OK: backups
+2026-11-17 16:09:22 | INFO     | torquemada | OK: databases
+2026-11-17 16:09:22 | INFO     | torquemada | OK: nas_files
+2026-11-17 16:09:22 | INFO     | torquemada | OK: pipelines
+2026-11-17 16:09:22 | INFO     | torquemada | OK: llm_bench
+2026-11-17 16:09:22 | INFO     | torquemada | Informe: <ruta>/torquemada_audit_report_v3_INT8.json
+
+=== RESUMEN v3.1 (INT8) ===
+Modelo:                 TORQUEMADA-OLMo-3.1-32B-THINKING-FP8-W8A8-DYNAMIC
+Max model len:          65536
+Casos evaluados:        7
+Truncados:              0 (0.0)
+Marcador respuesta:     1.0
+JSON válidos:           1.0 (2 casos)
+JSON campos completos:  1.0
+Cumplimiento español:   1.0
+Intentos medios:        1.14
+Juez válido:            1.0
+Fidelidad media juez:   4.33
+Relevancia media juez:  4.67
+Razonamiento medio:     6254.7 chars
+Respuesta media:        270.1 chars
+
+--- Estrés ---
+  concurrency_1: 21.48 tok/s agreg (1/1), TTFT 130.65 ms
+  concurrency_2: 42.48 tok/s agreg (2/2), TTFT 111.83 ms
+  concurrency_4: 42.54 tok/s agreg (4/4), TTFT 6272.51 ms
+  concurrency_8: 54.43 tok/s agreg (8/8), TTFT 20665.21 ms
+(venv) <usuario>@<servidor>:<ruta>$
